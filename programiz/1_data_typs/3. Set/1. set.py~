@@ -79,8 +79,3 @@ c = s5.clear()
 print "After clearing the set s5: ", s5
 print "*" * 145
 
-"""
-Python Set Operations:
-
-Sets can be used to carry out mathematical set operations like union, intersection, difference and symmetric difference. We can do this with operators or methods.
-"""

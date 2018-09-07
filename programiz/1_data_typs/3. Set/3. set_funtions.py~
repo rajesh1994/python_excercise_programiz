@@ -1,0 +1,9 @@
+s1 = {1, 2, 3, 4, 5, 6, 7, 8}
+
+print " " * 50, "Set Functions"
+print "*" * 145
+print " " * 50, "1. add() function"
+print "After adding an element in the set s1: ", s1.add(9)
+print "*" * 145
+
+
