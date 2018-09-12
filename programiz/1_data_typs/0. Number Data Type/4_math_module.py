@@ -19,7 +19,3 @@ print "sinh(10) = ", math.sinh(10)
 
 print "factorial(6) = ", math.factorial(6)
 print "*" * 145
-
-s = {1:1, 2:4, 3:9, 4:16, 5:25}
-print s.pop(4)
-print s
