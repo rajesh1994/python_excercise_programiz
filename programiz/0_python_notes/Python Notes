@@ -1,0 +1,45 @@
+Important - filter(), map(), lambda()
+
+
+
+Python Notes:
+
+1. Define Argument in Python?
+    An argument is nothing more than a value that has been provided to a function, which is relayed when you call it.
+    
+2. Define open() function in Python?
+    The open() function is used to open files in our system, the filename is the
+name of the file to be opened. 
+
+    The mode indicates, how the file is going to be opened "r" for reading,
+"w" for writing and "a" for a appending. 
+
+    The open function takes two arguments, the name of the file and and the mode
+for which we would like to open the file. 
+
+    By default, when only the filename is passed, the open function opens the file
+in read mode.
+
+3. Define read() function in Python?
+    The read functions contains different methods, read(),readline() and readlines()
+
+    read()		    -   return one big string
+
+    readline()	    -   return one line at a time
+
+    readlines()     -   returns a list of lines
+
+4. Define write() function in Python?
+    This method writes a sequence of strings to the file.
+
+    write()	        -   Used to write a fixed sequence of characters to a file
+
+    writelines()	-   writelines can write a list of strings.
+
+5. Define append() function in Python?
+    The append function is used to append to the file instead of overwriting it.
+
+    To append to an existing file, simply open the file in append mode ("a"):
+
+6. Define close() function in Python?
+    When you’re done with a file, use close() to close it and free up any system resources taken up by the open file
