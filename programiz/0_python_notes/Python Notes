@@ -43,3 +43,96 @@ in read mode.
 
 6. Define close() function in Python?
     When you’re done with a file, use close() to close it and free up any system resources taken up by the open file
+    
+7. Define super() function in Python?
+
+
+                                    Exception Handling in Python
+8. What is an Exception?
+    An exception is an error that happens during execution of a program. When that
+error occurs, Python generate an exception that can be handled, which avoids your
+program to crash.
+
+9. Why use Exceptions?
+    Exceptions are convenient in many ways for handling errors and special conditions
+in a program. When you think that you have a code which can produce an error then
+you can use exception handling.
+
+10. How to Raising an Exception?
+    You can raise an exception in your own program by using the raise exception
+statement.
+
+    Raising an exception breaks current code execution and returns the exception
+back until it is handled.
+
+11. List different types of Exception Errors?
+    IOError - If the file cannot be opened.
+
+    ImportError - If python cannot find the module
+
+    ValueError - Raised when a built-in operation or function receives an argument that has the right type but an inappropriate value
+
+    KeyboardInterrupt - Raised when the user hits the interrupt key (normally Control-C or Delete)
+
+    EOFError - Raised when one of the built-in functions (input() or raw_input()) hits an end-of-file condition (EOF) without reading any data
+
+12. How to set up exception handling blocks?
+    To use exception handling in Python, you first need to have a catch-all except clause. 
+
+    The words "try" and "except" are Python keywords and are used to catch exceptions.
+
+    try-except [exception-name] (see above for examples) blocks
+
+    The code within the try clause will be executed statement by statement.
+
+    If an exception occurs, the rest of the try block will be skipped and the except clause will be executed.
+    
+    Syntax:
+        try:
+            some statements here
+        except:
+            exception handling
+    Example:
+        try:
+            print 1/0
+
+        except ZeroDivisionError:
+            print "You can't divide by zero, you're silly."
+
+13. How does the "Exception Handling" works?
+        The error handling is done through the use of exceptions that are caught in try blocks and handled in except blocks. If an error is encountered, a try block code execution is stopped and transferred down to the except block. 
+
+    In addition to using an except block after the try block, you can also use the finally block. 
+
+    The code in the finally block will be executed regardless of whether an exception occurs.
+
+14. Explain about "Try ... except ... else clause"?
+    The else clause in a try , except statement must follow all except clauses, and is useful for code that must be executed if the try clause does not raise an exception.
+
+    Syntax:
+        try:
+            data = something_that_can_go_wrong
+
+        except IOError:
+            handle_the_exception_error
+
+        else:
+            doing_different_exception_handling
+            
+15. Explain about "Try ... finally" clause
+
+    The finally clause is optional. It is intended to define clean-up actions that must be executed under all circumstances
+
+    A finally clause is always executed before leaving the try statement, whether an exception has occurred or not.
+
+    Syntax:
+        try:
+            raise KeyboardInterrupt
+        finally:
+            print 'Goodbye, world!'
+
+Note:
+Remember that if you don't specify an exception type on the except line, it will
+catch all exceptions, which is a bad idea, since it means your program will ignore
+unexpected errors as well as ones which the except block is actually prepared to
+handle.

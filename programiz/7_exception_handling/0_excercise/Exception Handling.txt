@@ -1,0 +1,45 @@
+Method 1:
+
+Syntax:
+
+try:
+    # write some code 
+    # that might throw exception
+except <ExceptionType>: 
+    # Exception handler, alert the user
+
+
+    As you can see in try block you need to write code that might throw an exception.
+    When exception occurs code in the try block is skipped. If there exist a matching exception type in except  clause then it’s handler is executed.
+
+Method 2:
+    A try  statement can have more than once except  clause, It can also have optional else  and/or finally  statement.
+
+Syntax:
+
+try:
+    <body>
+except <ExceptionType1>:
+    <handler1>
+except <ExceptionTypeN>:
+    <handlerN>
+except:
+    <handlerExcept>
+else:
+    <process_else>
+finally:
+    <process_finally>
+
+
+    except  clause is similar to elif .
+    When exception occurs, it is checked to match the exception type in except  clause.
+    If match is found then handler for the matching case is executed. Also note that in last except  clause ExceptionType  is omitted.
+    If exception does not match any exception type before the last except  clause, then the handler for last except  clause is executed.
+
+    Note:  Statements under the else  clause run only when no exception is raised.
+
+    Note: Statements in finally  block will run every time no matter exception occurs or not.
+
+
+3. Raising exceptions:
+    To raise your exceptions from your own methods you need to use raise  keyword like this
