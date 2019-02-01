@@ -11,12 +11,17 @@ print(x)
 print("\nArray 'y' is:")
 print(y)
 
-# Adding two array using np.add() method
+# Adding two arrays using np.add() method
 add = np.add(x, y)
 print("\nAddition of two arrays:")
 print(add)
 
-# Subtracting two array using np.subtract() method
+# Subtracting two arrays using np.subtract() method
 sub = np.subtract(x, y)
 print("\nSubtraction of two arrays:")
 print(sub)
+
+# Multiplying two arrays using np.multiply() method
+mul = np.multiply(x, y)
+print("\nMultiplication of two arrays:")
+print(mul)
