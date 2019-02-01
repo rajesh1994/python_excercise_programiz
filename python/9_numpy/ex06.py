@@ -7,18 +7,18 @@ import numpy as np
 x = np.ones((3, 4))
 print("array x is:")
 print(x)
-print("Shape of x is:", x.shape)
+print("\nShape of x is:", x.shape)
 
 # Initialize 'y'
 y = np.arange(4)
-print("array y is:")
+print("\narray y is:")
 print(y)
-print("Shape of y is:", y.shape)
+print("\nShape of y is:", y.shape)
 
 # Adding 'x' & 'y'
-print("Addition of two arrays:")
+print("\nAddition of two arrays:")
 print(x + y)
 
 # Subtracting 'x' & 'y'
-print("Subtraction of two arrays:")
+print("\nSubtraction of two arrays:")
 print(x - y)
