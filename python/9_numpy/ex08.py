@@ -31,6 +31,11 @@ div = np.divide(x, y)
 print("\nDivision of two arrays:")
 print(div)
 
+# Remainder of an aarrays using np.remainder() method
+rem = np.remainder(x, y)
+print("\nRemainder of an arrays:")
+print(rem)
+
 # Square root an array using np.sqrt() method
 sqrt = np.sqrt(x)
 print("\nSquare root an array:")
@@ -50,3 +55,7 @@ print(sin)
 cos = np.cos(x)
 print("\nCosine value of an array:")
 print(cos)
+
+# Natural logrithm of an array using n.log() method
+log = np.log(3)
+print(log)
