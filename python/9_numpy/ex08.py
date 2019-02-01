@@ -1,4 +1,4 @@
-# Arithmetic operations on numpy
+# Mathemetical operations on numpy
 
 # Import numpy as 'np'
 import numpy as np
@@ -30,3 +30,8 @@ print(mul)
 div = np.divide(x, y)
 print("\nDivision of two arrays:")
 print(div)
+
+# Square root an array using np.sqrt() method
+sqrt = np.sqrt(x)
+print("Square root an array:")
+print(sqrt)
