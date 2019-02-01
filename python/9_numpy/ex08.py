@@ -25,3 +25,8 @@ print(sub)
 mul = np.multiply(x, y)
 print("\nMultiplication of two arrays:")
 print(mul)
+
+# Dividing two arrays using np.divide() method
+div = np.divide(x, y)
+print("\nDivision of two arrays:")
+print(div)
