@@ -33,5 +33,20 @@ print(div)
 
 # Square root an array using np.sqrt() method
 sqrt = np.sqrt(x)
-print("Square root an array:")
+print("\nSquare root an array:")
 print(sqrt)
+
+# Exponent of an array using np.exp() method
+exp = np.exp(x)
+print("\nExponent of an array:")
+print(exp)
+
+# Sine value of an array using np.sin() method
+sin = np.sin(x)
+print("\nSine value of an array:")
+print(sin)
+
+# Cosine value of an array using np.cosine() method
+cos = np.cos(x)
+print("\nCosine value of an array:")
+print(cos)
