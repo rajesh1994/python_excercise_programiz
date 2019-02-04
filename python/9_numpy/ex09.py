@@ -17,3 +17,8 @@ print(sum1)
 min1 = x.min()
 print("\nLowest element from the array:")
 print(min1)
+
+# Finding highest element from the array using min() method
+max1 = x.max()
+print("\nHighest element from the array:")
+print(max1)
