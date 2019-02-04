@@ -15,4 +15,14 @@ print("\nThe shape of the array 'x' is:", x.shape)
 print("\nResize 'x' to (5, 3):")
 print(np.resize(x, (5, 3)))
 
+# Initialize array 'y'
+y = np.array([[10, 23, 34, 23], [21, 12, 33, 23], [11, 22, 33, 44]])
+print("\nArray 'y' is:")
+print(y)
 
+# Print the shape of 'y'
+print("\nShape of the array 'y' is:", y.shape)
+
+# Reshape 'y' to (4, 3)
+print("\nReshaping to 'y' to (4, 3)")
+print(np.reshape(y, (4, 3)))
