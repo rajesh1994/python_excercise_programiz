@@ -40,3 +40,21 @@ print(x[0 : 2, 1])
 # This is same as saying x[2, :, :]
 print("\nPrinting items at row 2:")
 print(x[2, ...])
+
+# Numpy's indexing examples
+
+# Boolean Indexing
+
+# Try out a simple example
+print("\nPrinting the elements from a array lesser than 50:")
+print(x[x < 50])
+
+# Printing bigger than 50 from an array
+print("\nPrinting the elements from an array bigger than 50:")
+print(x[x > 50])
+
+# Fancy Indexing
+
+# Select elements at (1, 0), (0, 1)
+print("\nPrinting elements at (1, 0), (0, 1), (0, 0) and (2, 0):")
+print(x[1, 0], x[0, 1], x[0, 0], x[2, 0])
