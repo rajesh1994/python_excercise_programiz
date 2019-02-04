@@ -9,7 +9,7 @@ y = np.array([[10, 13, 28, 26, 37], [44, 32, 20, 88, 31], [2, 4, 5, 8, 7]])
 # Printing an array 'x'
 print("Array 'x' is:")
 print(x)
-print("Array 'y' is:")
+print("\nArray 'y' is:")
 print(y)
 
 # Tranpose an array 'x' by using transpose() method
@@ -17,5 +17,5 @@ print("\nTranpose an array 'x' by using transpose() method:")
 print(np.transpose(x))
 
 # Tranpose an array 'y' by using keyword 'T'
-print("\nTranpose an array 'y' by using keyword 'T'")
+print("\nTranpose an array 'y' by using keyword 'T':")
 print(y.T)
