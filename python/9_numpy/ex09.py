@@ -22,3 +22,8 @@ print(min1)
 max1 = x.max()
 print("\nHighest element from the array:")
 print(max1)
+
+# Finding mean value of the array using mean() method
+mean = x.mean()
+print("\nMean value of the array:")
+print(mean)
