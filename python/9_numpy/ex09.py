@@ -4,12 +4,12 @@
 import numpy as np
 
 # Initialize 'x'
-x = np.arange(9).reshape(3, 3)
+x = np.array([[0, True, False], [7, 8, 22], [44, 22, 38]])
 print("Array 'x' is:")
 print(x)
 
 # Initialize 'y'
-y = np.arange(9).reshape(3, 3)
+y = np.array([[19, 7, 5], [37, 31, 83], [26, 53, 101]])
 print("\nArray 'y' is:")
 print(y)
 
@@ -60,6 +60,6 @@ print(max2)
 
 # Finding cumulative sum of the elements in a array using cumsum(axis = 0)
 cumsum = x.cumsum()
-print("Cumulative sum of the elements:")
+print("\nCumulative sum of the elements:")
 print(cumsum)
 print(cumsum)
