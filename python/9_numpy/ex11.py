@@ -36,4 +36,7 @@ print(x[0 : 2])
 print("\nPrinting items at row 0 & 1, colomn 1:")
 print(x[0 : 2, 1])
 
-# 
+# Select items at row 2
+# This is same as saying x[2, :, :]
+print("\nPrinting items at row 2:")
+print(x[2, ...])
