@@ -26,3 +26,7 @@ print("\nShape of the array 'y' is:", y.shape)
 # Reshape 'y' to (4, 3)
 print("\nReshaping to 'y' to (4, 3)")
 print(np.reshape(y, (4, 3)))
+
+# Flatten array 'x' by using ravel() method
+print("\nFlatten the array 'y':")
+print(y.ravel())
