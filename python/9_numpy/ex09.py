@@ -42,3 +42,24 @@ print(median)
 corrcoef = np.corrcoef(x, y)
 print("\nCorrelation coefficient value of the array:")
 print(corrcoef)
+
+# Finding standard deviation of the array using np.std() method
+std_dev = np.std(x)
+print("\nStandard deviation of the array:")
+print(std_dev)
+
+# Finding maximum value of an array in a row using max(axis = 0)
+max2 = x.max(axis = 0)
+print("\nMaximum value of an array in a row:")
+print(max2)
+
+# Finding minimum value of an array in a row using max(axis = 0)
+max2 = x.min(axis = 0)
+print("\nMinimum value of an array in a row:")
+print(max2)
+
+# Finding cumulative sum of the elements in a array using cumsum(axis = 0)
+cumsum = x.cumsum()
+print("Cumulative sum of the elements:")
+print(cumsum)
+print(cumsum)
