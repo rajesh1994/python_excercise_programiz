@@ -16,3 +16,7 @@ print(np.insert(x1, [1], 22))
 y1 = np.array([[3, 4], [11, 22]])
 print("\nArray 'y1' is:")
 print(y1)
+
+# Delete the value at index 0
+print("Delete the value at index 0 in array 'y1':")
+print(np.delete(y1,0))
