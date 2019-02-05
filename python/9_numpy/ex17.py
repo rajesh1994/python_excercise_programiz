@@ -41,3 +41,11 @@ print(np.c_[my_resized_array, my_2d_array])
 # Stack arrays horizontally
 print("\nStack arrays my_resized_array, my_2d_array as horizontally:")
 print(np.hstack((my_resized_array, my_2d_array)))
+
+# Split array 'my_2d_array' horizontally at the 1st index
+print("\nSplit 'my_2d_array' horizontally at the 2nd index:")
+print(np.hsplit(my_2d_array, 2))
+
+# Split array 'my_2d_array' vertically at the 1st index
+print("\nSplit 'my_2d_array' horizontally at the 2nd index:")
+print(np.vsplit(my_2d_array, 2))
