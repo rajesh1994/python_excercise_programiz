@@ -8,10 +8,16 @@ x = np.array([[10, 20]])
 y = np.array([[30, 40]])
 my_2d_array = np.array([[22, 11], [33, 44]])
 
+# Printing array 'x', 'y', 'my_2d_array
+ print("Array 'x' is:")
+ print(x)
+ print("\nArray 'y' is:")
+ print(y)
+ print("\nArray 'my_2d_array' is:")
 # Concatenate array 'x' & 'y'
-print("Concatenate array 'x' & 'y':")
-print(np.concatenate(x, y))
+print("\nConcatenate array 'x' & 'y':")
+print(np.concatenate((x, y)))
 
 # Stack arrays row-wise
-print("Stack arrays row-wise:")
+print("\nStack arrays row-wise:")
 print(np.vstack((y, my_2d_array)))
