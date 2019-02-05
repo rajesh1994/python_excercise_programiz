@@ -7,7 +7,7 @@ import numpy as np
 x = np.array([[10, 20]])
 y = np.array([[30, 40]])
 my_2d_array = np.array([[22, 11], [33, 44]])
-my_resized_array = np.array([[7, 6]])
+my_resized_array = np.array([[7, 6], [20, 27]])
 
 # Printing array 'x', 'y', 'my_2d_array & 'my_resized_array'
 print("Array 'x' is:")
@@ -29,3 +29,15 @@ print(np.vstack((y, my_2d_array)))
 # Stack arrays row-wise
 print("\nStack arrays my_resized_array, my_2d_array as row-wise:")
 print(np.r_[my_resized_array, my_2d_array])
+
+# Stack arrays column-wise
+print("\nStack arrays my_resized_array, my_2d_array as column-wise:")
+print(np.column_stack((my_resized_array, my_2d_array)))
+
+# Stack arrays column-wise
+print("\nStack arrays my_resized_array, my_2d_array as column-wise:")
+print(np.c_[my_resized_array, my_2d_array])
+
+# Stack arrays horizontally
+print("\nStack arrays my_resized_array, my_2d_array as horizontally:")
+print(np.hstack((my_resized_array, my_2d_array)))
