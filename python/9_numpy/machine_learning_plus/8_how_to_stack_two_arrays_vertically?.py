@@ -15,15 +15,15 @@ print(y)
 
 # Method 1 using vstack() method
 vertical1  = np.vstack([x, y])
-print("Method 1 using vstack() method:")
+print("\nMethod 1 using vstack() method:")
 print(vertical1)
 
 # Method 2 using r_() method
-vertical2 = np.r_[x, y]
-print("Method 2 using r_() method:")
+vertical2 = np.c_[x, y]
+print("\nMethod 2 using r_() method:")
 print(vertical2)
 
 # Method 3 using concatenate() method
-vertical3 = np.concatenate([x, y])
-print("Method 1 using concatenate() method")
+vertical3 = np.concatenate([x, y], axis = 1)
+print("\nMethod 3 using concatenate() method:")
 print(vertical3)
