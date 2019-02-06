@@ -1,6 +1,5 @@
 """
-Problem Statement : 1. How to create a boolean array?
-                    2. Create a 3×3 numpy array of all True
+Problem Statement : 1. How to create a 3x3 boolean array?
 """
 
 # Import numpy as np
