@@ -14,4 +14,3 @@ print(x)
 y = np.where(x % 2 == 1, -1, x)
 print("\nModified array:")
 print(y)
-
