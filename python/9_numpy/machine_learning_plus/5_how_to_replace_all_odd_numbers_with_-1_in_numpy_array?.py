@@ -7,7 +7,6 @@ import numpy as np
 
 # Creating 1D array
 one_d_array = np.arange(10)
-# Printing 1D array
 print("1D array is:")
 print(one_d_array)
 
