@@ -8,6 +8,10 @@ import numpy as np
 # Creating 1D array
 one_d_array = np.arange(10)
 
+# Printing 1D array:
+print("1D array is:")
+print(one_d_array)
+
 # Extracting all odd numbers from 1D array
 odd_numbers = one_d_array[one_d_array % 2 == 1]
 print("Extracting all odd numbers from 1D array:")
