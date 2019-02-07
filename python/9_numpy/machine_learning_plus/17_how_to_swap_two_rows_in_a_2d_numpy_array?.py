@@ -1,5 +1,5 @@
 """
-Problem Statement : How to swap two rows in a 2d numpy array?
+Problem Statement : How to swap two rows in a 3D numpy array?
 """
 
 # Import numpy as 'np'
@@ -10,7 +10,7 @@ x = np.arange(9).reshape(3, 3)
 print("Array 'x' is:")
 print(x)
 
-# Swap two rows in a 2D numpy array
+# Swap two rows in a 3D numpy array
 row_swap = x[[1, 0, 2], :]
-print("Swap two rows in a 2D numpy array:")
+print("\nSwap two rows in a 2D numpy array:")
 print(row_swap)
