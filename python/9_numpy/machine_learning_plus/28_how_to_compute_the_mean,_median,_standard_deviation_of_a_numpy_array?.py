@@ -6,7 +6,6 @@ Problem Statement : How to compute the mean, median, standard deviation of a num
 import numpy as np
 
 url = 'https://archive.ics.uci.edu/ml/machine-learning-databases/iris/iris.data'
-iris = np.genfromtxt(url, delimiter = ',', dtype = None)
 
 # Find the mean, median, standard deviation of iris's sepallength (1st column)
 
