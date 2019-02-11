@@ -14,12 +14,22 @@ sepallength = np.genfromtxt(url, delimiter = ',', dtype = 'float', usecols = [1]
 print("Sepal_Length column data:")
 print(sepallength)
 
-# Mean value of the column sepallength
+# Column sepallength's mean value
 mean = np.mean(sepallength)
-print("\nMean value of the column sepallength:")
+print("\nColumn sepallength's mean value:")
 print(mean)
 
-# Median value of the column sepallength
+# Column sepallength's median value
 median = np.median(sepallength)
-print("\nMedian value of the column sepallength:")
+print("\nColumn sepallength's median value:")
 print(median)
+
+# Column sepallength's standard deviation value
+std = np.std(sepallength)
+print("\nColumn sepallength's standard deviation value:")
+print(std)
+
+# Column sepallength's correlation coefficient value
+corrcoef = np.corrcoef(sepallength)
+print("\nColumn sepallength's correlation coefficient value:")
+print(corrcoef)
