@@ -18,3 +18,8 @@ print(sepallength)
 mean = np.mean(sepallength)
 print("\nMean value of the column sepallength:")
 print(mean)
+
+# Median value of the column sepallength
+median = np.median(sepallength)
+print("\nMedian value of the column sepallength:")
+print(median)
