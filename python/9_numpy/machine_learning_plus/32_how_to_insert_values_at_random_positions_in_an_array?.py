@@ -19,6 +19,6 @@ print(iris_2d[: 10])
 
 # Method 2:
 np.random.seed(100)
-iris_2d[np.random.randint(150, size = 20), np.random.randint(4, size = 4)] = np.nan
+iris_2d[np.random.randint(150, size = 20), np.random.randint(4, size = 20)] = np.nan
 print("\nMethod 2:")
 print(iris_2d[: 10])
