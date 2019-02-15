@@ -11,6 +11,5 @@ print("Array 'a' is:")
 print(a)
 
 # Compute the one-hot encodings (dummy binary variables for each unique value in the array)
-print("Generating one-hot encodings for an array 'a':")
+print("Method 1:\nGenerating one-hot encodings for an array 'a':")
 print((a[:, None] == np.unique(a)).view(np.int8))
-#print((a[:, None] == np.unique(a)).view(np.int8))
