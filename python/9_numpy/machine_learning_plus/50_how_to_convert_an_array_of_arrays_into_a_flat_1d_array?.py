@@ -14,7 +14,7 @@ print(array_of_arrays)
 
 # Solution 1: By using np.concatenate()
 array_2d1 = np.concatenate(array_of_arrays)
-print("Solution 1: By using np.concatenate():")
+print("\nSolution 1: By using np.concatenate():")
 print(array_2d1)
 
 # Solution 2: By using np.array()
