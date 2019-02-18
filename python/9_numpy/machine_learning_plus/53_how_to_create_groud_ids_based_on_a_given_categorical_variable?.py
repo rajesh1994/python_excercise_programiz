@@ -5,13 +5,20 @@ Problem Statement : How to create groud ids based on a given categorical variabl
 # Import numpy as 'np'
 import numpy as np
 
+# Create group ids based on a given categorical variable. Use the following sample from iris species as input
 url = 'https://archive.ics.uci.edu/ml/machine-learning-databases/iris/iris.data'
-iris = np.genfromtxt(url, delimiter = ',', dtype = 'object')
+species = np.genfromtxt(url, delimiter = ',', dtype = 'str', usecols = 4)
+np.random.seed(100)
+species_small = np.sort(np.random.choice(species, size = 20))
+print("Species small array:")
+print(species_small)
 
-# What is the value of second longest petallength of species setosa
-# Get the species & petal length column
-petal_length_setosa = iris[iris[:, 4] == b'Iris-setosa', [2]].astype('float')
-
-# Get the second last value
-print("Second longest petallength of species setosa:")
-print(np.unique(np.sort(petal_length_setosa))[-2])
+# Solution : Using For loop
+output = []
+uniqs = np.unique(species_small)
+for val in uniqs:
+    for s in species_small[species_small == val]: # Each element in group
+        groupid = np.argwhere(uniqs == s).tolist()[0][0] # groupid
+        output.append(groupid)
+print("\nGroup ids based on a given categorical variable:")
+print(output)
