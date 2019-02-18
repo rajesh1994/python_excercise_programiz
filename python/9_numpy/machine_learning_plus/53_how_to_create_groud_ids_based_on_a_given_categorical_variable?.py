@@ -6,11 +6,11 @@ Problem Statement : How to create groud ids based on a given categorical variabl
 import numpy as np
 
 url = 'https://archive.ics.uci.edu/ml/machine-learning-databases/iris/iris.data'
-iris = np.genfromtxt(url, delimiter = ',', dtype = 'object')
+iris = np.genfromtxt(url, delimiter = ',', dtype = 'float')
 
 # What is the value of second longest petallength of species setosa
 # Get the species & petal length column
-petal_length_setosa = iris[iris[:, 4] == b'Iris-setosa', [2]].astype('float')
+petal_length_setosa = iris[iris[:, 4] == b'Iris-setosa', [2]]
 
 # Get the second last value
 print("Second longest petallength of species setosa:")
