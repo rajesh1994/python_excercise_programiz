@@ -10,7 +10,7 @@ import PIL, requests
 
 # Import image from URL
 URL = 'https://upload.wikimedia.org/wikipedia/commons/8/8b/Denali_Mt_McKinley.jpg'
-response = request.get(URL)
+response = requests.get(URL)
 
 # Read it as Image
 i = Image.open(BytesIO(response.content))
