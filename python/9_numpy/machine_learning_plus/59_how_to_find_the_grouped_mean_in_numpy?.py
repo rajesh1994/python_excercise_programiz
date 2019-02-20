@@ -16,10 +16,13 @@ numeric_column = iris[:, 1].astype('float') # Sepalwidth
 grouping_column = iris[:, 4] # Species
 
 # For loop version
-output = []
+output1 = []
 for group_val in np.unique(grouping_column):
-    output.append([group_val, numeric_column[grouping_column == group_val].mean()])
-print("Grouped mean of column species:")
-print(output)
+    output1.append([group_val, numeric_column[grouping_column == group_val].mean()])
+print("For loop version\nGrouped mean of column species:")
+print(output1)
 
-# List Comprehension Version
+# List comprehension version
+output2 = [[group_val, numeric_column[grouping_column == group_val].mean()] for group_val in np.unique(grouping_column)]
+print("\nList comprehension version:\nGrouped mean of column species:")
+print(output2)
