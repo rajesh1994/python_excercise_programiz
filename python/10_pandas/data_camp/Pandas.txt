@@ -2,12 +2,14 @@ Pandas:
 
 Pandas is a popular Python package for data science, and with good reason: it offers powerful, expressive and flexible data structures that make data manipulation and analysis easy, among many other things. The DataFrame is one of these structures.
 
+
 Python | Pandas DataFrame:
 
 	Pandas DataFrame is two-dimensional size-mutable, potentially heterogeneous tabular data structure with labeled axes (rows and columns).
 	A Data frame is a two-dimensional data structure, i.e., data is aligned in a tabular fashion in rows and columns.
 	Pandas DataFrame consists of three principal components, the data, rows, and columns.
 	
+
 Firstly, the DataFrame can contain data that is:
 	a Pandas DataFrame
 	
@@ -18,3 +20,11 @@ Firstly, the DataFrame can contain data that is:
 	a two-dimensional ndarray
 	
 	dictionaries of one-dimensional ndarray’s, lists, dictionaries or Series.
+
+
+Concept of loc and how it differs from other indexing attributes such as .iloc[] and .ix[]:
+	.loc[] works on labels of your index. This means that if you give in loc[2], you look for the values of your DataFrame that have an index labeled 2.
+	
+	.iloc[] works on the positions in your index. This means that if you give in iloc[2], you look for the values of your DataFrame that are at index ’2`.
+
+	.ix[] is a more complex case: when the index is integer-based, you pass a label to .ix[]. ix[2] then means that you’re looking in your DataFrame for values that have an index labeled 2. This is just like .loc[]! However, if your index is not solely integer-based, ix will work with positions, just like .iloc[].
