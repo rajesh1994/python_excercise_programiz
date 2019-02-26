@@ -14,7 +14,7 @@ print(df)
 
 # Method 1 : Using 'iloc[]' to select row '0'
 print("\nMethod 1 : Using 'iloc[]' to select row '0':")
-print(df.iloc[0][0])
+print(df.iloc[0])
 
 # Method 2 : Using 'loc[]' to select column 'A'
 print("\nMethod 2 : Using 'loc[]' to select column 'A':")
