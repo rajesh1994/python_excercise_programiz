@@ -1,5 +1,5 @@
 """
-Problem Statement : 2.0 How to select a particluar item
+Problem Statement : 2.0 How to select a particluar item in a dataframe
 """
 
 # Import numpy as np
@@ -13,7 +13,17 @@ print("DataFrame 'df' is:")
 print(df)
 
 # Method 1 : Using 'iloc[]'
-print("Method 1 : Using 'iloc[]':")
+print("\nMethod 1 : Using 'iloc[]':")
 print(df.iloc[0][0])
 
-# Method
+# Method 2 : Using 'loc[]'
+print("\nMethod 2 : Using 'loc[]':")
+print(df.loc[0]['A'])
+
+# Method 3 : Using 'at[]'
+print("\nMethod 3 : Using 'at[]':")
+print(df.at[0, 'A'])
+
+# Method 4 : Using 'iat[]'
+print("\nMethod 4 : Using 'iat[]':")
+print(df.iat[0, 0])
