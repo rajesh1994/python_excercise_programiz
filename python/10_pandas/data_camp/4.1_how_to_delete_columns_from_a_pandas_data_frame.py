@@ -17,8 +17,14 @@ print(df)
 df.drop('A', axis = 1, inplace= True)
 print("\nDrop the column with label 'A:")
 print(df)
+# Drop the column with label 'A'
+df.drop('B', axis = 1, inplace= True)
+print("\nDrop the column with label 'B:")
+print(df)
 
+"""
 # Drop the column at Position 1
 df.drop(df.columns[[1]], axis = 1)
 print("\nDrop the column at Position 1:")
 print(df)
+"""

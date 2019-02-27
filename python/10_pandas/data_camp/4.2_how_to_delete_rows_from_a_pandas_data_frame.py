@@ -15,9 +15,9 @@ print(df)
 # Deleting a row from a DataFrame
 # Drop the row at index 3
 df.drop(3, axis = 0, inplace = True)
-print("Drop the row at index 3:")
+print("\nDrop the row at index 3:")
 print(df)
 # Drop the row at index 1
 df.drop(1, axis = 0, inplace = True)
-print("Drop the row at index 1:")
+print("\nDrop the row at index 1:")
 print(df)
