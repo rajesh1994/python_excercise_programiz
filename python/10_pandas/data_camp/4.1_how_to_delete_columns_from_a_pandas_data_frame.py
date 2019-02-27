@@ -1,5 +1,5 @@
 """
-Problem Statement : 4.1 How to Delete Rows or Columns From a Pandas Data Frame
+Problem Statement : 4.1 How to Delete Columns From a Pandas Data Frame
 """
 
 # Import numpy as np
