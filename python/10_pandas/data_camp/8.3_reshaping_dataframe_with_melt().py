@@ -2,9 +2,7 @@
 Problem Statement : 8.3 Reshaping DataFrame With melt()
 """
 
-# Import numpy as np
 # Import pandas as pd
-import numpy as np
 import pandas as pd
 
 # Initialize 'people' DataFrame
