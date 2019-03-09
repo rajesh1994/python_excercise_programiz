@@ -22,9 +22,9 @@ series_union = pd.Series(np.union1d(series1, series2))
 print("\nUnion of two series are:")
 print(series_union)
 
-series_intersect = pd.series(np.intersect1d(series1, series2))
+series_intersect = pd.Series(np.intersect1d(series1, series2))
 print("\nIntersect of two series are:")
-print(series_intersect1d)
+print(series_intersect)
 
 print("\nGetting the items not common to both series 1 & series 2:")
-print(series_union[~series_union.isin(series_intersection)])
+print(series_union[~series_union.isin(series_intersect)])
