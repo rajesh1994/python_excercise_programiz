@@ -13,4 +13,11 @@ myarray = np.arange(26)
 mydict = dict(zip(mylist, myarray))
 
 # Creating a series from a list, numpy array & dict
-series1 = pd.Series()
+series1 = pd.Series(mylist)
+series2 = pd.Series(myarray)
+series3 = pd.Series(mydict)
+print(series3.head(n = 10))
+
+"""
+Pandas head() method is used to return top n (5 by default) rows of a data frame or series.
+"""
