@@ -22,7 +22,8 @@ print(series1[~series1.isin(series2)])
 """
 isin() method:
 
-Pandas isin() method is used to filter data frames. isin() method helps in selecting rows with having a particular(or Multiple) value in a particular column.
+Check whether values are contained in Series.
+Return a boolean Series showing whether each element in the Series matches an element in the passed sequence of values exactly.
 
 Syntax:
 DataFrame.isin(values)
