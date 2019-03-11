@@ -7,8 +7,8 @@ import pandas as pd
 
 # Initialize series1
 series1 = pd.Series(list("abcdefghijklmnopqrstuvwxyz"))
-position = [0, 8, 12, 18, 17, 26]
+position = [0, 8, 12, 18, 17, 25]
 
-# Extracting items at 0, 8, 12, 18, 17, 26 positions from a series
-print("Extracting items at 0, 8, 12, 18, 17, 26 positions from a series:")
-print(series1.take(pos))
+# Extracting items at 0, 8, 12, 18, 17, 25 positions from a series
+print("Extracting items at 0, 8, 12, 18, 17, 25 positions from a series:")
+print(series1.take(position))
