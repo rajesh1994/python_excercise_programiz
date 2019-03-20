@@ -19,3 +19,24 @@ print(series1.map(lambda x : parse(x)))
 # Method 2 : converting a series of date-strings to a timeseries
 print("\nMethod 2 : converting a series of date-strings to a timeseries")
 print(pd.to_datetime(series1))
+
+"""
+pd.to_datetime()
+
+Pandas to_datetime() method helps to convert string Date time into Python Date time object.
+
+ Syntax:
+
+pandas.to_datetime(arg, errors=’raise’, dayfirst=False, yearfirst=False, utc=None, box=True, format=None, exact=True, unit=None, infer_datetime_format=False, origin=’unix’, cache=False)
+
+ 
+Parameters:
+
+arg: An integer, string, float, list or dict object to convert in to Date time object.
+dayfirst: Boolean value, places day first if True.
+yearfirst: Boolean value, places year first if True.
+utc: Boolean value, Returns time in UTC if True.
+format: String input to tell position of day, month and year.
+
+Return type: Date time object series.
+"""
