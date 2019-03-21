@@ -71,4 +71,7 @@ W : weekly frequency
 M : month end frequency
 SM : semi-month end frequency (15th and end of month)
 Q : quarter end frequency
+
+URL :
+https://www.geeksforgeeks.org/python-pandas-dataframe-resample/
 """
