@@ -21,4 +21,4 @@ df = pd.DataFrame(np.random.random(4), columns=['random'])
 out = df.style.format({
     'random': '{0:.2%}'.format,
 })
-print(out)
+print(p)
