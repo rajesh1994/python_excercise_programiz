@@ -10,7 +10,7 @@ import pandas as pd
 # Initializing DataFrame 'df'
 df = pd.DataFrame(np.random.randint(10, 40, 60).reshape(-1, 4))
 print("DataFrame 'df':")
-print(df.tail())
+#print(df.tail())
 
 # Print row-sum
 rowsums = df.apply(np.sum, axis=1)
