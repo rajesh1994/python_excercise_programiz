@@ -2,14 +2,6 @@
 Problem Statement : 64. How to normalize all columns in a dataframe?
 """
 
-"""
-1. Normalize all columns of df by subtracting the column mean and divide by standard deviation.
-
-2. Range all columns of df such that the minimum value in each column is 0 and max is 1.
-
-3. Don’t use external packages like sklearn.
-
-"""
 # Import numpy as np
 # Import pandas as pd
 import numpy  as np
