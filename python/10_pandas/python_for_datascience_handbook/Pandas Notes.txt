@@ -1,0 +1,17 @@
+The Pandas Series Object:
+	A Pandas Series is a one-dimensional array of indexed data. It can be created from a list or array.
+	A Series is an analog of a one-dimensional array with flexible indices.
+	While the NumPy array has an implicitly defined integer index used to access the values, the Pandas Series has an explicitly defined index associated with the values.
+	This explicit index definition gives the Series object additional capabilities. For example, the index need not be an integer, but can consist of values of any desired type.
+
+The Pandas DataFrame Object:
+	If a Series is an analog of a one-dimensional array with flexible indices, a DataFrame is an analog of a two-dimensional array with both flexible row indices and flexible column names.
+	
+Indexers: loc, iloc, and ix:
+	The loc attribute allows indexing and slicing that always references the explicit index.
+	The loc for label based indexing.
+	
+	The iloc attribute allows indexing and slicing that always references the implicit Python-style index.\
+	The loc for label based indexing.
+	
+	A third indexing attribute, ix , is a hybrid of the two, and for Series objects is equiva‐lent to standard [] -based indexing.
